@@ -1,0 +1,28 @@
+name: tribe_social
+description: "TRIBE SOCIAL - Your Feed. Your Tribes. Your Rules."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.8.0'
+  flutter: '>=3.29.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+  go_router: ^14.0.0
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  dio: ^5.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  riverpod_generator: ^2.4.0
+  build_runner: ^2.4.12
+  isar_generator: ^3.1.0+1
+
+flutter:
+  uses-material-design: true
